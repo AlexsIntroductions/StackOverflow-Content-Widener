@@ -1,8 +1,11 @@
 {
     "name": "StackOverflow Content Widener",
-    "description": "Remove the right side-bar section of StackOverflow for Veritcal Monitors",
+    "description": "Remove the side-bar sections of StackOverflow for Veritcal Monitors",
     "version": "1.0",
     "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
       "permissions": ["storage", "storage", "activeTab", "scripting"],
       "action": {
         "default_popup": "popup.html",
