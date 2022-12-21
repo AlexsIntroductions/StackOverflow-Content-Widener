@@ -1,11 +1,8 @@
 {
-    "name": "StackOverflow Shrinker",
-    "description": "Remove the Linked and Related section of StackOverflow for Veritcal Monitors",
+    "name": "StackOverflow Content Widener",
+    "description": "Remove the right side-bar section of StackOverflow for Veritcal Monitors",
     "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-      },
       "permissions": ["storage", "storage", "activeTab", "scripting"],
       "action": {
         "default_popup": "popup.html",
